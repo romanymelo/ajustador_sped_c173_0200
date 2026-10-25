@@ -1,0 +1,13 @@
+# Saída do PyInstaller (o .exe vai para a página de Releases)
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Arquivos SPED reais nunca devem ir para o repositório
+*.txt
+!requirements.txt
