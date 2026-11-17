@@ -39,10 +39,6 @@ pyinstaller --noconfirm ajustador_sped_c173_0200.spec
 
 O `.exe` é gerado em `dist/`. Ele não vai para o repositório (está no `.gitignore`): anexe-o a uma nova [Release](../../releases/new) com a tag da versão (veja o [CHANGELOG](CHANGELOG.md)).
 
-## Autor
-
-Desenvolvido por Romany Melo.
-
 ## Licença
 
 [MIT](LICENSE)
