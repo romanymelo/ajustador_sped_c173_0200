@@ -132,6 +132,10 @@ def criar_regra(pai, linha, registro, antes, depois, descricao):
 
 # --- CONSTRUÇÃO DA INTERFACE ---
 
+# Assinatura: empacotada primeiro para reservar o espaço no rodapé
+label_assinatura = ctk.CTkLabel(app, text="Desenvolvido por Romany Melo", font=FONTE_PEQUENA, text_color=SUAVE)
+label_assinatura.pack(side="bottom", pady=(0, 10))
+
 frame_cabecalho = ctk.CTkFrame(app, fg_color="transparent")
 frame_cabecalho.pack(fill="x", padx=32, pady=(26, 0))
 
